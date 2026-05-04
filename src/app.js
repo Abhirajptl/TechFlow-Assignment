@@ -12,7 +12,8 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-    origin: "*"
+    origin: "https://astonishing-beignet-ce7ac0.netlify.app",
+    credentials: true
 }));
 app.use(express.json());
 
